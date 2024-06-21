@@ -55,15 +55,6 @@ const Navbar = () => {
           </li>
         ) : null}
       </ul>
-
-      <button
-        type='button'
-        onClick={toggleNavList}
-        className='btn btn--icon nav__hamburger'
-        aria-label='toggle navigation'
-      >
-        {showNavList ? <CloseIcon /> : <MenuIcon />}
-      </button>
     </nav>
   )
 }
